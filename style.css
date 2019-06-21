@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+
+}
+.header{
+    background-color: #F8D0B7 ;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+}
+.header a{
+    color: grey;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+    height: 70px;
+}
+.header ol{
+    display: flex;
+    height: inherit;
+
+}
+
+.header ol li{
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1{
+    font-weight: bolder;
+}

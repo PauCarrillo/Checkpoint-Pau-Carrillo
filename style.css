@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
 
 }
 .header{
@@ -10,34 +10,36 @@ body{
     justify-content: space-between;
     height: 500px;
     align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
 }
 .header a{
     color: grey;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    height: inherit;
-    padding: 0 10px;
-    height: 70px;
-}
-.header ol{
-    display: flex;
+    justify-content: center;
     height: inherit;
 
 }
 
-.header ol li{
+h1,
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
     display: flex;
-    font-size: 20px;
-    font-weight: bolder;
+    justify-content: center;
 }
-
-ol,
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.hero{
+    background-color: #FD8479;
+    color: white;
+    height: 500px;
 }
-h1{
-    font-weight: bolder;
+.descripcion{
+display: block;
+float: none;
+justify-content: left;
+}
+.final{
+    background-color: #F1D5CB;
+    color: white;
+    height: 500px;
 }
